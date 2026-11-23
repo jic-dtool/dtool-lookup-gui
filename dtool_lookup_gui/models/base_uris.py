@@ -119,7 +119,7 @@ class LocalBaseURIModel(BaseURI):
 
     def create_dataset(self, name, readme_template_path=None):
         """Create a proto dataset."""
-        # Adopted from https://github.com/jic-dtool/dtool-create/blob/master/dtool_create/dataset.py#L133
+        # Adopted from https://github.com/jic-dtool/dtool-create/blob/main/dtool_create/dataset.py#L133
 
         # Check that the name is valid
         if not name_is_valid(name):

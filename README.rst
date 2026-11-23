@@ -5,10 +5,10 @@ dtool-lookup-gui
     :height: 20px
     :target: https://github.com/jic-dtool/dtool-lookup-gui
     :alt: dtool-lookup-gui icon
-.. image:: https://img.shields.io/github/actions/workflow/status/jic-dtool/dtool-lookup-gui/build-and-publish.yml?branch=master
+.. image:: https://img.shields.io/github/actions/workflow/status/jic-dtool/dtool-lookup-gui/build-and-publish.yml?branch=main
     :target: https://github.com/jic-dtool/dtool-lookup-gui/actions/workflows/build-and-publish.yml
     :alt: GitHub Build Workflow Status
-.. image:: https://img.shields.io/github/actions/workflow/status/jic-dtool/dtool-lookup-gui/test.yml?branch=master&label=tests
+.. image:: https://img.shields.io/github/actions/workflow/status/jic-dtool/dtool-lookup-gui/test.yml?branch=main&label=tests
     :alt: GitHub Tests Workflow Status
     :target: https://github.com/jic-dtool/dtool-lookup-gui/actions/workflows/test.yml
 .. image:: https://img.shields.io/github/v/release/jic-dtool/dtool-lookup-gui

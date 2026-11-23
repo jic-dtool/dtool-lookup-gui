@@ -42,7 +42,7 @@ except ImportError:
 
 from .. import __version__
 
-# from https://github.com/jic-dtool/dtool-cli/blob/master/dtool_cli/cli.py
+# from https://github.com/jic-dtool/dtool-cli/blob/main/dtool_cli/cli.py
 def pretty_version_text():
     """Return pretty version text listing all plugins."""
     if dtool_version is not None:
