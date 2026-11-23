@@ -18,7 +18,7 @@ shutil.copytree(data_source_dir, data_destination_dir)  # Copy images
 # -- Project information
 
 project = 'dtool-lookup-gui'
-copyright = '2023, livMatS'
+copyright = '2023-2026, jic-dtool'
 author = 'Antoine Sanner, Ashwin Vazhappilly, Johannes Laurin Hörmann, Lars Pastewka, Michal Rössler, Wolfram Nöhring'
 
 

@@ -145,7 +145,7 @@ async def _lookup_info(lookup_dict):
 
     # The server does not include these fields in response as of 0.17.2
     # They will be available in next release,
-    # https://github.com/jic-dtool/dtool-lookup-server/pull/21
+    # https://github.com/jic-dtool/dservercore/pull/21
     try:
         info["size_int"] = lookup_dict['size_in_bytes']
         info["size_str"] = sizeof_fmt(lookup_dict['size_in_bytes'])

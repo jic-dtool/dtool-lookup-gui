@@ -29,11 +29,11 @@ VSVersionInfo(
       [
       StringTable(
         '040904b0',
-        [StringStruct('CompanyName', ''livMatS Cluster of Excellence'),
+        [StringStruct('CompanyName', 'jic-dtool'),
         StringStruct('FileDescription', 'dtool-lookup-gui'),
         StringStruct('FileVersion', '7.0.0'),
         StringStruct('InternalName', 'dtool-lookup-gui'),
-        StringStruct('LegalCopyright', 'Copyright (c) 2020-2022 livMatS'),
+        StringStruct('LegalCopyright', 'Copyright (c) 2020-2026 jic-dtool'),
         StringStruct('OriginalFilename', 'dtool-lookup-gui.exe'),
         StringStruct('ProductName', 'dtool'),
         StringStruct('ProductVersion', '7.0.0')])

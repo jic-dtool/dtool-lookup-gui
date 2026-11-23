@@ -73,7 +73,7 @@
             <property name="can-focus">False</property>
             <property name="xpad">5</property>
             <property name="ypad">5</property>
-            <property name="label" translatable="yes">Web: &lt;a href="https://github.com/livMatS/dtool-lookup-gui" title="dtool-lookup-gui homepage"&gt;https://github.com/livMatS/dtool-lookup-gui&lt;/a&gt;
+            <property name="label" translatable="yes">Web: &lt;a href="https://github.com/jic-dtool/dtool-lookup-gui" title="dtool-lookup-gui homepage"&gt;https://github.com/jic-dtool/dtool-lookup-gui&lt;/a&gt;
 Docs: &lt;a href="https://dtool-lookup-gui.readthedocs.io" title="dtool-lookup-gui docs"&gt;https://dtool-lookup-gui.readthedocs.io&lt;/a&gt;</property>
             <property name="use-markup">True</property>
           </object>

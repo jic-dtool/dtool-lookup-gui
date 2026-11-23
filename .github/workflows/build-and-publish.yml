@@ -10,16 +10,16 @@ on:
 
 jobs:
   build-on-ubuntu:
-    uses: livMatS/dtool-lookup-gui/.github/workflows/build-on-ubuntu.yml@master
+    uses: jic-dtool/dtool-lookup-gui/.github/workflows/build-on-ubuntu.yml@master
 
   build-on-windows:
-    uses: livMatS/dtool-lookup-gui/.github/workflows/build-on-windows.yml@master
+    uses: jic-dtool/dtool-lookup-gui/.github/workflows/build-on-windows.yml@master
 
   build-installer-on-windows:
-    uses: livMatS/dtool-lookup-gui/.github/workflows/build-installer-on-windows.yml@master
+    uses: jic-dtool/dtool-lookup-gui/.github/workflows/build-installer-on-windows.yml@master
 
   build-on-macos:
-    uses: livMatS/dtool-lookup-gui/.github/workflows/build-on-macos.yml@master
+    uses: jic-dtool/dtool-lookup-gui/.github/workflows/build-on-macos.yml@master
 
   build-python-package:
     name: Build

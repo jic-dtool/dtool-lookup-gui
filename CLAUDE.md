@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 `dtool-lookup-gui` is a GTK 3 / PyGObject desktop application (entry point `dtool-gui`)
 for browsing and managing [dtool](https://github.com/jic-dtool/dtool) datasets and for
-querying a [dtool-lookup-server](https://github.com/jic-dtool/dtool-lookup-server) and its
+querying a [dtool-lookup-server](https://github.com/jic-dtool/dservercore) and its
 mongo / dependency-graph plugins. It talks to servers through `dtool_lookup_api` and to
 local/remote (S3, SMB) storage through `dtoolcore`.
 

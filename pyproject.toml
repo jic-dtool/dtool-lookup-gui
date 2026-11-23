@@ -51,7 +51,7 @@ test = [
 
 [project.urls]
 documentation = "https://dtool-lookup-gui.readthedocs.io"
-repository = "https://github.com/livMatS/dtool-lookup-gui"
+repository = "https://github.com/jic-dtool/dtool-lookup-gui"
 changelog = "https://dtool-lookup-gui.readthedocs.io/en/latest/changelog.html"
 
 [project.scripts]

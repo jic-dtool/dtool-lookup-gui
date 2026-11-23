@@ -52,6 +52,6 @@ In one way or the other, these concepts underlie any other sophisticated data ma
 .. _simulation group: https://pastewka.org/
 .. _Department of Microsystems Engineering: https://imtek.uni-freiburg.de
 .. _University of Freiburg: https://uni-freiburg.de/en/
-.. _dtool-lookup-server: https://github.com/jic-dtool/dtool-lookup-server
+.. _dtool-lookup-server: https://github.com/jic-dtool/dservercore
 .. _Cluster of Excellence livMatS: https://www.livmats.uni-freiburg.de
 .. _FAIR principles: https://www.go-fair.org/fair-principles/
