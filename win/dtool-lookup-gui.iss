@@ -5,8 +5,8 @@
 #ifndef MyAppVersion
 #define MyAppVersion "dev"
 #endif
-#define MyAppPublisher "livMatS Cluster of Excellence"
-#define MyAppURL "https://github.com/livMatS/dtool-lookup-gui"
+#define MyAppPublisher "jic-dtool"
+#define MyAppURL "https://github.com/jic-dtool/dtool-lookup-gui"
 #define MyAppExeName "dtool-lookup-gui.exe"
 
 [Setup]

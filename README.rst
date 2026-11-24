@@ -3,16 +3,16 @@ dtool-lookup-gui
 
 .. image:: data/icons/22x22/dtool_logo.png
     :height: 20px
-    :target: https://github.com/livMatS/dtool-lookup-gui
+    :target: https://github.com/jic-dtool/dtool-lookup-gui
     :alt: dtool-lookup-gui icon
-.. image:: https://img.shields.io/github/actions/workflow/status/livMatS/dtool-lookup-gui/build-and-publish.yml?branch=master
-    :target: https://github.com/livMatS/dtool-lookup-gui/actions/workflows/build-and-publish.yml
+.. image:: https://img.shields.io/github/actions/workflow/status/jic-dtool/dtool-lookup-gui/build-and-publish.yml?branch=main
+    :target: https://github.com/jic-dtool/dtool-lookup-gui/actions/workflows/build-and-publish.yml
     :alt: GitHub Build Workflow Status
-.. image:: https://img.shields.io/github/actions/workflow/status/livMatS/dtool-lookup-gui/test.yml?branch=master&label=tests
+.. image:: https://img.shields.io/github/actions/workflow/status/jic-dtool/dtool-lookup-gui/test.yml?branch=main&label=tests
     :alt: GitHub Tests Workflow Status
-    :target: https://github.com/livMatS/dtool-lookup-gui/actions/workflows/test.yml
-.. image:: https://img.shields.io/github/v/release/livMatS/dtool-lookup-gui
-    :target: https://github.com/livMatS/dtool-lookup-gui/releases/latest
+    :target: https://github.com/jic-dtool/dtool-lookup-gui/actions/workflows/test.yml
+.. image:: https://img.shields.io/github/v/release/jic-dtool/dtool-lookup-gui
+    :target: https://github.com/jic-dtool/dtool-lookup-gui/releases/latest
     :alt: GitHub release (latest by date)
 .. image:: https://badge.fury.io/py/dtool-lookup-gui.svg
     :target: https://badge.fury.io/py/dtool-lookup-gui
@@ -232,7 +232,7 @@ For a locally editable install, clone this repository with
 
 .. code:: console
 
-    git clone git+https://github.com/livMatS/dtool-lookup-gui.git
+    git clone git+https://github.com/jic-dtool/dtool-lookup-gui.git
 
 change into the repository directory,
 
@@ -363,17 +363,17 @@ This development has received funding from the Deutsche Forschungsgemeinschaft w
 
 .. _contributing guidelines: CONTRIBUTING.md
 
-.. _direct query: https://github.com/livMatS/dtool-lookup-server-direct-mongo-plugin#direct-query
+.. _direct query: https://github.com/jic-dtool/dserver-direct-mongo-plugin#direct-query
 
 .. _dtool: https://github.com/jic-dtool/dtool
 
-.. _dtool-lookup-server: https://github.com/jic-dtool/dtool-lookup-server
+.. _dtool-lookup-server: https://github.com/jic-dtool/dservercore
 
-.. _dtool-lookup-server-dependency-graph-plugin: https://github.com/livMatS/dtool-lookup-server-dependency-graph-plugin
+.. _dtool-lookup-server-dependency-graph-plugin: https://github.com/jic-dtool/dserver-dependency-graph-plugin
 
-.. _dtool-lookup-server-direct-mongo-plugin: https://github.com/livMatS/dtool-lookup-server-direct-mongo-plugin
+.. _dtool-lookup-server-direct-mongo-plugin: https://github.com/jic-dtool/dserver-direct-mongo-plugin
 
-.. _dtool-lookup-server-search-plugin-mongo: https://github.com/jic-dtool/dtool-lookup-server-search-plugin-mongo
+.. _dtool-lookup-server-search-plugin-mongo: https://github.com/jic-dtool/dserver-search-plugin-mongo
 
 .. _Glade: https://glade.gnome.org/
 
@@ -389,5 +389,5 @@ This development has received funding from the Deutsche Forschungsgemeinschaft w
 
 .. _livMatS: https://www.livmats.uni-freiburg.de/en
 
-.. _latest release: https://github.com/livMatS/dtool-lookup-gui/releases/latest
+.. _latest release: https://github.com/jic-dtool/dtool-lookup-gui/releases/latest
 

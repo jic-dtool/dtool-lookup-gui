@@ -2,7 +2,6 @@ name: build-and-publish
 on:
   push:
     branches:
-      - master
       - main
     tags:
       - '*'
@@ -10,16 +9,16 @@ on:
 
 jobs:
   build-on-ubuntu:
-    uses: livMatS/dtool-lookup-gui/.github/workflows/build-on-ubuntu.yml@master
+    uses: jic-dtool/dtool-lookup-gui/.github/workflows/build-on-ubuntu.yml@main
 
   build-on-windows:
-    uses: livMatS/dtool-lookup-gui/.github/workflows/build-on-windows.yml@master
+    uses: jic-dtool/dtool-lookup-gui/.github/workflows/build-on-windows.yml@main
 
   build-installer-on-windows:
-    uses: livMatS/dtool-lookup-gui/.github/workflows/build-installer-on-windows.yml@master
+    uses: jic-dtool/dtool-lookup-gui/.github/workflows/build-installer-on-windows.yml@main
 
   build-on-macos:
-    uses: livMatS/dtool-lookup-gui/.github/workflows/build-on-macos.yml@master
+    uses: jic-dtool/dtool-lookup-gui/.github/workflows/build-on-macos.yml@main
 
   build-python-package:
     name: Build
@@ -193,13 +192,13 @@ jobs:
             ./dist/*.tar.gz
             ./dist/*.whl
 
-      - name: Get master HEAD SHA
+      - name: Get main HEAD SHA
         id: get_master_sha
         run: |
-          git fetch --depth 1 origin master
+          git fetch --depth 1 origin main
           echo "Commit that triggered this workflow: ${{ github.sha }}"
-          echo "HEAD at master: $(git rev-parse master)"
-          echo "sha=$(git rev-parse origin/master)" >> $GITHUB_OUTPUT
+          echo "HEAD at main: $(git rev-parse origin/main)"
+          echo "sha=$(git rev-parse origin/main)" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release
         env:
